@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 CXXFLAGS = $(shell dpkg-buildflags --get CXXFLAGS)
-CPPFLAGS = -W -Wall $(shell dpkg-buildflags --get CPPFLAGS) -D_FILE_OFFSET_BITS=64
+CPPFLAGS = -W -Wall $(shell dpkg-buildflags --get CPPFLAGS) -D_FILE_OFFSET_BITS=64 -fPIC
 LDFLAGS = $(shell dpkg-buildflags --get LDFLAGS)
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
