@@ -1,0 +1,7 @@
+files
+libocrad-dev.debhelper.log
+libocrad-dev.substvars
+libocrad-dev/
+ocrad.debhelper.log
+ocrad.substvars
+tmp/

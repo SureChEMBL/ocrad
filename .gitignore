@@ -1,0 +1,8 @@
+*.o
+Makefile
+build-stamp
+config.status
+configure-stamp
+libocrad.a
+ocrad
+ocrcheck
